@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="582.0" style="-fx-background-color: #2E3348;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.HomeController">
+    <children>
+      <ImageView fitHeight="313.0" fitWidth="422.0" layoutX="135.0" layoutY="73.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Assets/loppuh.png" />
+         </image>
+      </ImageView>
+        <Label layoutX="117.0" prefHeight="84.0" prefWidth="351.0" text="V.V.V.Proger">
+            <textFill>
+                <LinearGradient endX="1.0" endY="1.0">
+                    <stops>
+                        <Stop color="#e1930b" />
+                        <Stop color="#0771bc" offset="1.0" />
+                    </stops>
+                </LinearGradient>
+            </textFill>
+            <font>
+                <Font name="Monotype Corsiva" size="66.0" />
+            </font>
+        </Label>
+          <Label layoutX="146.0" layoutY="172.0" prefHeight="238.0" prefWidth="293.0" text="Hello !">
+              <textFill>
+                  <LinearGradient endX="0.7761904761904762" startX="0.7904761904761904" startY="0.7714285714285715">
+                      <stops>
+                          <Stop color="#e1930b" />
+                          <Stop color="#0771bc" offset="1.0" />
+                      </stops>
+                  </LinearGradient>
+              </textFill>
+              <font>
+                  <Font name="Monotype Corsiva" size="120.0" />
+              </font>
+          </Label>
+    </children>
+</AnchorPane>
